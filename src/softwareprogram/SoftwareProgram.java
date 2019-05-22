@@ -18,6 +18,7 @@ public class SoftwareProgram {
         Student obj1 = new Student();
         obj1.setName("kashish");
         System.out.println(obj1);
+     System.out.println("mukh to lali udh gi neend ni aundi raatan nu"):
     }
     
 }
