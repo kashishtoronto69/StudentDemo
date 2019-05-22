@@ -8,6 +8,7 @@ package softwareprogram;
 
 public class Student {
     private String name;
+    private int Maxcoiurse;
     public void setName(String name)
     {
         this.name  = name;
@@ -15,6 +16,20 @@ public class Student {
     public String getName()
     {
         return name;
+    }
+
+    /**
+     * @return the Maxcoiurse
+     */
+    public int getMaxcoiurse() {
+        return Maxcoiurse;
+    }
+
+    /**
+     * @param Maxcoiurse the Maxcoiurse to set
+     */
+    public void setMaxcoiurse(int Maxcoiurse) {
+        this.Maxcoiurse = Maxcoiurse;
     }
     
 }
